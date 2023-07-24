@@ -14,3 +14,19 @@ I wanted to demonstrate, as per the specification, that I could use strong Objec
 I come from a non TDD background, so I have researched this and attempted to complete this problem using only a TDD approach. I followed the Red, Green, Refactor approach, as such all of my test were written first, then ran and broken (Red), then I implemented the code / logic (Green) and finally any refactoring that was needed. I have implemented all of my tests using JUnit and have included a Test Suite class to enable them to all be run at once. Again, this is my first real delve into TDD solo, so I may be lacking test coverage in some areas and have over tested in others.
 
 In conclusion I'd love the opportunity to discuss both the Design Pattern implementations and TDD approach further with your developers, as I'm sure there's a lot I can learn and improve in these aspects.
+
+
+
+
+
+
+Description
+
+Develop an api that moves a rover around on a grid.
+
+You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing.
+The rover receives a character array of commands.
+Implement commands that move the rover forward/backward (f,b).
+Implement commands that turn the rover left/right (l,r).
+Implement wrapping from one edge of the grid to another. (planets are spheres after all)
+Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point and reports the obstacle.
